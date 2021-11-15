@@ -13,4 +13,5 @@ https://docs.python.org Make sure the right version is viewed
 https://docs.python-guide.org
 https://learnxinyminutes.com/docs/python
 https://devdocs.io/python-3.9 Make sure the right version is viewed
+https://www.python.org/dev/peps/pep-0008/ style guide
 

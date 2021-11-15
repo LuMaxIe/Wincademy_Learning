@@ -20,3 +20,22 @@ You can add a variable in a string by using a preceding 'f' before the string an
 answer = 50
 add_in_string = f'The answer is ... {answer}'
 ```
+
+## Integers && Floats
+
+### Comparing floats
+Comparing a float to another float for "equalness" will not always work out. This is because the internal representations of floats might (and most likely) not be equal:
+```Python
+x = 1.1 + 2.2
+x == 3.3 
+# False
+```
+To determine whether a float is equal to another float is to substract one float from another. The remainder can be compared against a "Tolerance" using the absolute value function "abs()"
+```Python
+tolerance = 0.00001
+x = 1.1 + 2.2
+abs(x - 3.3) < tolerance
+# True
+``` 
+
+
